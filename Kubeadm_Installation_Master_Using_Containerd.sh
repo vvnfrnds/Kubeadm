@@ -23,6 +23,7 @@ echo "Generating join command for worker nodes..."
 kubeadm token create --print-join-command
 sleep 2
 
+#K8S Setup Completes
 echo "Kubernetes Master Node setup complete."
 
 
